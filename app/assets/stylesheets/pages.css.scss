@@ -10,6 +10,7 @@
   font-size: 12px;
  	display:inline;
   padding-right:25px;
+  padding-left:25px;
 }
 
 .nav {
@@ -20,7 +21,7 @@
 //main_view
 
 .jumbotron {
-  height: 400px;
+  height: 500px;
   background-image: url("http://s3.amazonaws.com/codecademy-content/projects/broadway/bg.jpg");
   -o-background-size: cover;
   background-size: cover;
@@ -31,15 +32,18 @@
   font-family: 'Roboto', sans-serif;
   font-weight: 60;
   font-size: 14px;
+  text-align:center;
+  display:relative;
+  top:50%;
   margin-top: 60px;
   margin-bottom: 60px;
-  margin-right: 60px;
-  margin-left: 60px;
+  margin-right: auto;
+  margin-left: auto;
   text-transform: uppercase;
 }
 
 //footer
-li {
+.footer li {
   color: #333;
   font-family: 'Raleway', sans-serif;
   font-weight: 600;
@@ -48,8 +52,11 @@ li {
   padding-left:25px;
 }
 
+
 //elements
 .btn-main {
+  display:inline-block;
+  clear:both;
   background-color: #333;
   color: #fff;
   font-family: 'Raleway', sans-serif;
@@ -59,4 +66,42 @@ li {
   padding: 16px 40px;
   text-decoration: none;
   text-transform: uppercase;
+  border:1px solid white;
+  border-radius:5px;
+  margin:5px 0 0;
+ 	padding:9px 22px 7px;
+}
+
+.btn {
+  display:inline-block;
+  clear:both;
+  color:black;
+  background:#fff;
+  font-size:12px;
+  font-weight:700;
+  text-transform:uppercase;
+  text-decoration:none;
+  border:2px solid black;
+  border-radius:5px;
+  margin:5px 0 0;
+  padding:9px 22px 7px;
+  
+}
+
+.banner .btn:hover {
+  background:black;
+}
+
+.banner .btn:active {
+  -webkit-filter:drop-shadow(0-1px2pxrgba(0,0,0,.5));
+  -moz-filter:drop-shadow(0-1px2pxrgba(0,0,0,.5));
+  -ms-filter:drop-shadow(0-1px2pxrgba(0,0,0,.5));
+  -o-filter:drop-shadow(0-1px2pxrgba(0,0,0,.5));
+  filter:drop-shadow(0-1px2pxrgba(0,0,0,.5));
+}
+
+img {
+  padding-right:20px;
+  height:60%;
+  width:60%;
 }

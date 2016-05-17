@@ -1,13 +1,9 @@
 Rails.application.routes.draw do
-<<<<<<< HEAD
 	#welcome page
-  root 'pages#welcome'
-  
-  	#portfolio
+  	root 'pages#welcome'
+  	
+  	#portfolio page
   	get '/portfolio' => 'pages#portfolio'
-=======
-  root 'pages#welcome'
->>>>>>> f53b0913467fc450a4c71494e4e7d52705d8f8cb
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
 
