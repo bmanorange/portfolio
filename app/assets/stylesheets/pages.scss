@@ -1,0 +1,107 @@
+// Place all the styles related to the Pages controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+
+//Navigation CSS
+.nav li {
+  color: black;
+  font-family: 'Raleway', sans-serif;
+  font-weight: 600;
+  font-size: 12px;
+ 	display:inline;
+  padding-right:25px;
+  padding-left:25px;
+}
+
+.nav {
+  margin: 0;
+  padding: 20px 5px;
+}
+
+//main_view
+
+.jumbotron {
+  height: 500px;
+  background-image: url("http://s3.amazonaws.com/codecademy-content/projects/broadway/bg.jpg");
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+.main {
+  color: #333;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 60;
+  font-size: 14px;
+  text-align:center;
+  display:relative;
+  top:50%;
+  margin-top: 60px;
+  margin-bottom: 60px;
+  margin-right: auto;
+  margin-left: auto;
+  text-transform: uppercase;
+}
+
+//footer
+.footer li {
+  color: #333;
+  font-family: 'Raleway', sans-serif;
+  font-weight: 600;
+  font-size: 10px;
+ 	display:inline;
+  padding-left:25px;
+}
+
+
+//elements
+.btn-main {
+  display:inline-block;
+  clear:both;
+  background-color: #333;
+  color: #fff;
+  font-family: 'Raleway', sans-serif;
+  font-weight: 600;
+  font-size: 18px;
+  letter-spacing: 1.3px;
+  padding: 16px 40px;
+  text-decoration: none;
+  text-transform: uppercase;
+  border:1px solid white;
+  border-radius:5px;
+  margin:5px 0 0;
+ 	padding:9px 22px 7px;
+}
+
+.btn {
+  display:inline-block;
+  clear:both;
+  color:black;
+  background:#fff;
+  font-size:12px;
+  font-weight:700;
+  text-transform:uppercase;
+  text-decoration:none;
+  border:2px solid black;
+  border-radius:5px;
+  margin:5px 0 0;
+  padding:9px 22px 7px;
+  
+}
+
+.banner .btn:hover {
+  background:black;
+}
+
+.banner .btn:active {
+  -webkit-filter:drop-shadow(0-1px2pxrgba(0,0,0,.5));
+  -moz-filter:drop-shadow(0-1px2pxrgba(0,0,0,.5));
+  -ms-filter:drop-shadow(0-1px2pxrgba(0,0,0,.5));
+  -o-filter:drop-shadow(0-1px2pxrgba(0,0,0,.5));
+  filter:drop-shadow(0-1px2pxrgba(0,0,0,.5));
+}
+
+img {
+  padding-right:20px;
+  height:60%;
+  width:60%;
+}

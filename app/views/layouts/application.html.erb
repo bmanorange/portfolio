@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Portfolio</title>
+  <link href='https://fonts.googleapis.com/css?family=Roboto:100,300,500,700&subset=latin,greek' rel='stylesheet' type='text/css'>
+  <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track' => true %>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+  <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track' => true %>
+  <%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
+  <%= csrf_meta_tags %>
+  <link rel="stylesheet" href="/app/assets/stylesheets/pages.css.scss">
+</head>
+  
+<body>
+<ul class="nav nav-pills">
+  <li role="presentation"><%= link_to 'Welcome', "/" %></li>
+  <li role="presentation"><%= link_to 'Portfolio', "/portfolio" %></li>
+  <li role="presentation"><a href="#">Blog</a></li>
+  <li role="presentation"><a href="#">About</a></li>
+  <li role="presentation"><a href="">Brian Ovalles</a></li>
+  
+</ul>
+  
+<%= yield %>
+
+  <div class="footer">
+  <ul>
+    <li>Github</li>
+    <li>Linkedin</li>
+    <li>Twitter</li>
+    <li>&copy Copyright Brian Ovalles</li>
+  </ul>
+</div>
+</body>
+</html>

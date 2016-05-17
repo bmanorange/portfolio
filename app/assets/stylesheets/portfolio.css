@@ -1,0 +1,129 @@
+.banner {
+  position:relative;
+  width:100%;
+  height: 350px;
+  overflow:auto;
+  font-size:18px;
+  line-height:24px;
+  text-align:center;
+  color:rgba(255,255,255,.6);
+  text-shadow:0 0 1px rgba(0,0,0,.05), 0 1px 2px rgba(0,0,0,.3);
+  background:#5b4d3d;
+  box-shadow:0 1px 2px rgba(0,0,0,.25);
+}
+
+.banner ul
+{
+  list-style:none;
+  width:300%;
+}
+
+.banner ul li
+{
+  display:block;
+  float:left;
+  width:33%;
+  min-height:350px;
+  -moz-background-size:100% 100%;
+  -o-background-size:100% 100%;
+  -ms-background-size:100% 100%;
+  background-size: 100% 100%;
+  box-shadow:inset 0 -3px 6px rgba(0,0,0,.1);
+  padding:160px 0 110px;
+}
+
+.banner h1, .banner h2
+{
+  font-size: 40px;
+  line-height: 52px;
+  color: #fff;
+  
+}
+
+.unslider li,.unslider ol,.unslider ul{
+  list-style:none;
+  margin:0;
+  padding:0;
+  border:none}
+
+.unslider-nav ol {
+  list-style: none;
+  text-align: center;
+}
+.unslider-nav ol li {
+  display: inline-block;
+  width: 6px;
+  height: 6px;
+  margin: 0 4px;
+  background: transparent;
+  border-radius: 5px;
+  overflow: hidden;
+  text-indent: -999em;
+  border: 2px solid green;
+  cursor: pointer;
+}
+.unslider-nav ol li.unslider-active {
+  background: black;
+  cursor: default;
+}
+
+.unslider-wrap{
+  position:relative}
+
+.unslider-wrap.unslider-carousel>li{
+  float:left}
+
+.unslider-vertical>ul{
+  height:100%}
+
+.unslider-vertical li{
+  float:none;width:100%}
+
+.unslider-fade{
+  position:relative}
+
+.unslider-fade .unslider-wrap li{position:absolute;left:0;top:0;right:0;z-index:8}
+
+.unslider-fade .unslider-wrap li
+
+.unslider-active{z-index:10}
+
+.unslider-arrow{
+	position:absolute;left:20px;
+  z-index:2;
+	cursor:pointer}
+
+.unslider-arrow.next{
+  left:auto;
+  right:20px}
+
+.banner .dots
+{
+  position:absolute;
+  left:0;
+  right:0;
+  bottom:20px;
+}
+
+.banner .dots li
+{
+  display:inline-block;
+  width:10px;
+  height:10px;
+  text-indent:-999em;
+  border:2px solid #fff;
+  border-radius:6px;
+  cursor:pointer;
+  opacity:.4;
+  -webkit-transition:background .5s, opacity .5s;
+  -moz-transition:background .5s, opacity .5s;
+  transition:background .5s, opacity .5s;
+  margin:0 4px;
+}
+
+.banner .dots li.active
+{
+  background:#fff;
+  opacity:1;
+}
+
