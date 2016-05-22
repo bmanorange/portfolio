@@ -4,6 +4,13 @@ Rails.application.routes.draw do
   	
   	#portfolio page
   	get '/portfolio' => 'pages#portfolio'
+  	
+  	#from welcome to about
+  get '/about' => 'pages#about'
+  
+  #from welcome to contact
+  get '/contact' => 'pages#contact'
+  
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
 

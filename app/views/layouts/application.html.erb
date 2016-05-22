@@ -13,23 +13,24 @@
   
 <body>
 <ul class="nav nav-pills">
+  <li role="presentation"><a class="navbar-brand" href="/"><img src="http://s3.amazonaws.com/codecademy-blog/assets/logo_blue_dark.png" alt="Dispute Bills"></a></li>
   <li role="presentation"><%= link_to 'Welcome', "/" %></li>
   <li role="presentation"><%= link_to 'Portfolio', "/portfolio" %></li>
   <li role="presentation"><%= link_to 'Blog', "http://baovalles.tumblr.com", :target=> "_blank" %></li>
-  <li role="presentation"><a href="#">About</a></li>
-  <li role="presentation"><a href="">Brian Ovalles</a></li>
+  <li role="presentation"><%= link_to 'About', "/about"%></li>
+  <li role="presentation"><%= link_to 'Contact', "/contact"%></li>
   
 </ul>
-  
+
 <%= yield %>
 
-  <div class="footer">
+<div class="footer">
   <ul>
     <li>Github</li>
     <li>Linkedin</li>
     <li>Twitter</li>
-    <li>&copy Copyright Brian Ovalles</li>
   </ul>
+  <p style="padding-left:65px; font-family:'Raleway', sans-serif;font-weight: 600;font-size: 10px;">&copy Copyright, Bud Orange</p>
 </div>
 </body>
 </html>
